@@ -110,7 +110,7 @@ pipeline {
             archiveArtifacts artifacts: 'target/*.war',
                              allowEmptyArchive: true
 
-            cleanWs()
+            // cleanWs()
         }
 
         success {
